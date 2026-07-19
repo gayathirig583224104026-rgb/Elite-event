@@ -15,45 +15,50 @@
             <div class="logo">
                 <h2>Elite <span class="logo-event">Events</span></h2>
             </div>
-            <!-- <li><a href="#home">HOME</a></li> -->
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#services">SERVICES</a></li>
-            <li><a href="#why us">WHY US</a></li>
-            <li><a href="#gallery">GALLERY</a></li>
-            <li><a href="#testimonials">REVIEWS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <ul class="nav-links">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#why-us">WHY US</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#testimonials">REVIEWS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
             <button class="Button">Plan Your Event</button>
         </nav>
+        <div class="overlay"></div>
     </section>
-    <section class="home">
-        <div class="home">
+    <section class="home" id="home">
+        <div class="home-content">
             <label>Premier Event Management</label>
             <h1>We Create</h1>
             <h2><span class="highlight">Unforgettable</span></h2>
-            <h1>Moments</h>
-                <p>From intimate gatherings to grand galas
-                    - We orchestrate every detail so you can live the experience.</p>
-                <button class="button">Explore Services</button>
-                <div class="stats-container">
-                    <!-- <div class="stats"> -->
-                    <div class="stats-a">
-                        <span>850+<span>
-                                <h3>EVENT DELIVERED</h3>
-                    </div>
-                    <div class="stats-a">
-                        <span>12 OUR WORK</span>
-                        <h3>YEARS OF EXCELLENCE SCROLL</h3>
-                    </div>
-                    <div class="stats-a">
-                        <span>98%</span>
-                        <h3>CLIENT SATISFACTION</h3>
-                    </div>
+            <h1>Moments</h1>
+            <p>From intimate gatherings to grand galas
+                - We orchestrate every detail so you can live the experience.</p>
+            <button class="button">Explore Services</button>
+            <div class="stats-container">
+                <!-- <div class="stats"> -->
+                <div class="stats-a">
+                    <span>850+<span>
+                            <h3>EVENT DELIVERED</h3>
                 </div>
+                <div class="stats-a">
+                    <span>12+</span>
+                    <h3>YEARS OF EXCELLENCE</h3>
+                </div>
+                <div class="stats-a">
+                    <span>98%</span>
+                    <h3>CLIENT SATISFACTION</h3>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- about -->
-    <section class="about" id="about">
+    <section class="about reveal" id="about">
         <label class="about-title">ABOUT US</label>
         <div class="about-us">
             <div class="images">
@@ -104,7 +109,7 @@
             </div>
     </section>
     <!-- services -->
-    <section class="services" id="services">
+    <section class="services reveal" id="services">
         <div class="services">
             <label>WHAT WE OFFER</label>
             <div class="service-content">
@@ -116,6 +121,7 @@
             <div class="cards">
                 <div class="card-container">
                     <div class="structure">
+                        <div class="featured"><i class="fa-solid fa-star"></i>Most Popular</div>
                         <span><i class="fa-solid fa-0"></i><i class="fa-solid fa-1"></i></span>
                         <div class="icon">
                             <i class="fa-solid fa-heart"></i>
@@ -129,7 +135,7 @@
                     <div class="structure">
                         <span><i class="fa-solid fa-0"></i><i class="fa-solid fa-2"></i></span>
                         <div class="icon">
-                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-building"></i>
                         </div>
                         <h2>Corporate Events</h2>
                         <p>Product launches,annual galas,conferences,and brand activations
@@ -137,9 +143,11 @@
                         <button>Enquire➡</button>
                     </div>
                     <div class="structure">
+                        <div class="featured"><i class="fa-solid fa-star"></i>Most Popular</div>
+
                         <span><i class="fa-solid fa-0"></i><i class="fa-solid fa-3"></i></span>
                         <div class="icon">
-                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-champagne-glasses"></i>
                         </div>
                         <h2>Social Galas</h2>
                         <p>Birthday milestones, anniversary dinners,and high-society soirees.
@@ -149,7 +157,7 @@
                     <div class="structure">
                         <span><i class="fa-solid fa-0"></i><i class="fa-solid fa-4"></i></span>
                         <div class="icon">
-                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-music"></i>
                         </div>
                         <h2>Venue Curation</h2>
                         <p>Access to an exclusive portfolio of heritage palaces,rooftop terraces,
@@ -159,7 +167,7 @@
                     <div class="structure">
                         <span><i class="fa-solid fa-0"></i><i class="fa-solid fa-5"></i></span>
                         <div class="icon">
-                            <i class="fa-solid fa-heart"></i>
+                            <i class="fa-solid fa-handshake"></i>
                         </div>
                         <h2>Entertainment & Production</h2>
                         <p>Live performers,celebrity appearances,A/V production,lighting design and theatrical
@@ -167,6 +175,8 @@
                         <button>Enquire➡</button>
                     </div>
                     <div class="structure">
+                        <div class="featured"><i class="fa-solid fa-star"></i>Most Popular</div>
+
                         <span><i class="fa-solid fa-0"></i><i class="fa-solid fa-6"></i></span>
                         <div class="icon">
                             <i class="fa-solid fa-heart"></i>
@@ -181,91 +191,83 @@
         </div>
     </section>
 
-    <!-- why us -->
-    <section class="why-us" id="why us">
+    <!-- why-us -->
+    <section class="why-us reveal" id="why-us">
         <div class="why-content">
-            <label>WHY ELITE EVENTS</label>
-            <h2>Standard Others
-                <em>Aspire To</em>
+            <label>Why Clients Choose Elite Events</label>
+            <h2>The Standard
+                <em>Others Aspire To</em>
             </h2>
-            <p class="why-sub">We don't just plan events — we craft
-                experiences that resonate long after
-                the last guest has left.</p>
+            <p class="why-sub">We combine creativity, precision, and elegance
+                to transform every occasion into an unforgettable experience.</p>
             <div class="why-container">
-                <div class="why-reason">
-                    <div class="why-icon">
-                        <i class="fa-solid fa-shield-halved"></i>
+                <div class="why-left">
+                    <div class="why-reason">
+                        <div class="why-icon">
+                            <i class="fa-solid fa-crown"></i>
+                        </div>
+                        <div class="why-text">
+                            <h4>Bespoke Planning</h4>
+                            <p>Every event is tailored to your unique vision and preferences.</p>
+                        </div>
                     </div>
-                    <div class="why-text">
-                        <h4>Zero Compromise on Quality</h4>
-                        <p>Every vendor, detail, and material passes our strict
-                            47-point quality checklist to ensure flawless event execution.</p>
+                    <div class="why-reason">
+                        <div class="why-icon">
+                            <i class="fa-solid fa-medal"></i>
+                        </div>
+                        <div class="why-text">
+                            <h4>Proven Excellence</h4>
+                            <p>12+ years of experience and hundreds of successful celebrations.</p>
+                        </div>
                     </div>
-                </div>
-                <div class="why-reason">
-                    <div class="why-icon">
-                        <i class="fa-solid fa-shield-halved"></i>
+                    <div class="why-reason">
+                        <div class="why-icon">
+                            <i class="fa-solid fa-handshake"></i>
+                        </div>
+                        <div class="why-text">
+                            <h4>Dedicated Team</h4>
+                            <p>A passionate team committed to flawless execution</p>
+                        </div>
                     </div>
-                    <div class="why-text">
-                        <h4>Zero Compromise on Quality</h4>
-                        <p>Every vendor, detail, and material passes our strict
-                            47-point quality checklist to ensure flawless event execution.</p>
-                    </div>
-                </div>
-                <div class="why-reason">
-                    <div class="why-icon">
-                        <i class="fa-solid fa-user"></i>
-                    </div>
-                    <div class="why-text">
-                        <h4>A Team of 40+ Specialists</h4>
-                        <p>Designers, logistics experts, culinary coordinators,
-                            and creative directors working together to make your event extraordinary.</p>
-                    </div>
-                </div>
-                <div class="why-reason">
-                    <div class="why-icon">
-                        <i class="fa-solid fa-star"></i>
-                    </div>
-                    <div class="why-text">
-                        <h4>Exclusive Vendor Network</h4>
-                        <p>Access 200+ pre-vetted premium vendors,
-                            offering exclusive services and experiences not available to the general public.</p>
+                    <div class="why-reason">
+                        <div class="why-icon">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="why-text">
+                            <h4>Attention to Detail</h4>
+                            <p>From décor to guest experience, every detail matters.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="why-reason">
-                    <div class="why-icon">
-                        <i class="fa-solid fa-clock"></i>
-                    </div>
-                    <div class="why-text">
-                        <h4>Always On Time, Always On Budget</h4>
-                        <p>12 years, 850+ events,
-                            and a proven track record of delivering on time and within budget. That's our promise.
-                        </p>
-                    </div>
-                </div>
-                <div class="why-images">
-                    <div class="why-img-big">
-                        <img src="img/marg.jpg" alt="grand hall">
-                        <div class="why-overlay"></div>
-                    </div>
-                    <div class="why-img-small">
-                        <img src="img/weds.jpg" alt="wdding hall">
-                    </div>
-                    <div class="why-badge">
-                        <span>850+</span>
-                        <h3>Events Deliverd</h3>
+                
+                <div class="why-right">
+                    <div class="why-images">
+                        <div class="why-img-big">
+                            <img src="img/marg.jpg" alt="grand hall">
+                            <div class="why-overlay"></div>
+                        </div>
+                        <div class="why-img-small">
+                            <img src="img/weds.jpg" alt="wdding hall">
+                        </div>
+                        <div class="why-badge">
+                            <span>850+</span>
+                            <h3>Events Deliverd</h3>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- gallary -->
-    <section class="gallery" id="gallery">
+    <section class="gallery reveal" id="gallery">
 
         <div class="section-header">
             <span>OUR PORTFOLIO</span>
             <h2>Luxury Moments We've Created</h2>
+            <p class="gallery-sub">
+            Every celebration reflects our passion for luxury, creativity, and timeless elegance.</p>
         </div>
+        
 
         <div class="marquee-row row1">
             <div class="track">
@@ -277,6 +279,16 @@
 
                 <div class="item"><img src="img/party1.jpg" alt=""></div>
                 <div class="item"><img src="img/night.jpg" alt=""></div>
+
+                <div class="item"><img src="img/birthday1.jpg" alt=""></div>
+                <div class="item"><img src="img/corporate1.jpg" alt=""></div>
+                <div class="item"><img src="img/corporate2.jpg" alt=""></div>
+                <div class="item"><img src="img/corporate3.jpg" alt=""></div>
+                <div class="item"><img src="img/corporates1.jpg" alt=""></div>
+
+                <div class="item"><img src="img/party1.jpg" alt=""></div>
+                <div class="item"><img src="img/night.jpg" alt=""></div>
+
             </div>
         </div>
 
@@ -290,11 +302,21 @@
 
                 <div class="item"><img src="img/weddings1.jpg" alt=""></div>
                 <div class="item"><img src="img/stages.jpg" alt=""></div>
+
+                <div class="item"><img src="img/wedding1.jpg" alt=""></div>
+                <div class="item"><img src="img/wedding2.jpg" alt=""></div>
+                <div class="item"><img src="img/wedding3.jpg" alt=""></div>
+                <div class="item"><img src="img/wedding4.jpg" alt=""></div>
+                <div class="item"><img src="img/wedding5.jpg" alt=""></div>
+
+                <div class="item"><img src="img/weddings1.jpg" alt=""></div>
+                <div class="item"><img src="img/stages.jpg" alt=""></div>
+
             </div>
         </div>
 
     </section>
-    <section class="testimonials" id="testimonials">
+    <section class="testimonials reveal" id="testimonials">
 
         <div class="section-header">
             <span>TESTIMONIALS</span>
@@ -305,6 +327,14 @@
 
             <div class="testimonial-card">
                 <div class="quote">“</div>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
                 <p>Elite Events made our wedding unforgettable. Everything was perfectly organized and luxury feel was
                     beyond expectations.</p>
                 <h4>Arjun & Priya</h4>
@@ -313,6 +343,14 @@
 
             <div class="testimonial-card">
                 <div class="quote">“</div>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
                 <p>Professional team with amazing execution. Our corporate event looked world-class.</p>
                 <h4>Ravi Kumar</h4>
                 <span>Business Client</span>
@@ -320,6 +358,14 @@
 
             <div class="testimonial-card">
                 <div class="quote">“</div>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
                 <p>Birthday setup was stunning. Lights, decor, everything was perfect.</p>
                 <h4>Divya</h4>
                 <span>Private Client</span>
@@ -327,6 +373,14 @@
 
             <div class="testimonial-card">
                 <div class="quote">“</div>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
                 <p>The decoration and lighting setup exceeded expectations. Truly premium service.</p>
                 <h4>Karthik</h4>
                 <span>Event Client</span>
@@ -334,6 +388,15 @@
 
             <div class="testimonial-card">
                 <div class="quote">“</div>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
+                
                 <p>Very professional and creative team. Our engagement function was magical.</p>
                 <h4>Meena & Suresh</h4>
                 <span>Wedding Client</span>
@@ -341,6 +404,14 @@
 
             <div class="testimonial-card">
                 <div class="quote">“</div>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+
                 <p>Great coordination and flawless execution. Highly recommended for corporate events.</p>
                 <h4>Senthil</h4>
                 <span>Corporate Client</span>
@@ -349,7 +420,7 @@
         </div>
 
     </section>
-    <section class="contact" id="contact">
+    <section class="contact reveal" id="contact">
 
         <div class="section-header">
             <span>CONTACT</span>
@@ -360,12 +431,13 @@
 
             <div class="contact-info">
                 <h3>Elite Events</h3>
+                <p class="contact-tag">Luxury Event Planning Since 2013</p>
                 <p>Tell us your dream event, we will make it reality with luxury experience.</p>
 
                 <div class="info">
-                    <p>📍 Chennai, Tamil Nadu</p>
-                    <p>📞 +91 98765 43210</p>
-                    <p>📧 eliteevents@email.com</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Chennai, Tamil Nadu</p>
+                    <p><i class="fa-solid fa-location-dot"></i>+91 98765 43210</p>
+                    <p><i class="fa-solid fa-envelope"></i>eliteevents@email.com</p>
                 </div>
             </div>
 
@@ -427,7 +499,7 @@
 
                 <textarea placeholder="Extra Notes / Requirements"></textarea>
 
-                <button type="submit">Send Request</button>
+                <button type="submit">Request Consultation <i class="fa-solid fa-arrow-right"></i></button>
 
             </form>
 
@@ -436,15 +508,15 @@
     </section>
 
 
-    <footer class="footer">
+    <footer class="footer reveal">
 
         <div class="footer-container">
 
             <!-- BRAND -->
             <div class="footer-card brand">
                 <h2>Elite Events</h2>
-                <p>Crafting luxury weddings, corporate events & unforgettable celebrations.</p>
-                <div class="experience">500+ Events Delivered ✨</div>
+                <p>Creating unforgettable luxury weddings, corporate events and private celebrations with elegance, creativity and flawless execution.</p>
+                <div class="experience">850+ Luxury Events Delivered ✨</div>
             </div>
 
             <!-- QUICK SERVICES -->
@@ -472,11 +544,12 @@
                 <p>📞 +91 98765 43210</p>
                 <p>📧 eliteevents@email.com</p>
 
-                <div class="social">
-                    <span>Instagram</span>
-                    <span>WhatsApp</span>
-                    <span>YouTube</span>
-                </div>
+                <!-- <div class="social">
+                    <span><i class="fa-brands fa-instagram"></i>Instagram</span>
+                    <span><i class="fa-brands fa-whatsapp"></i>WhatsApp</span>
+                    <span><i class="fa-brands fa-youtube"></i>YouTube</span>
+                    <span><giti class="fa-brands fa-facebook-f"></i>FaceBook</span>
+                </div> -->
             </div>
 
             <!-- NEWSLETTER -->
@@ -484,22 +557,19 @@
                 <h3>Newsletter</h3>
                 <p>Get latest event ideas & offers</p>
 
-                <input type="email" placeholder="Enter email">
-                <button>Subscribe</button>
+                <input type="email" placeholder="Enter your email address">
+                <button>Subscribe Now</button>
             </div>
 
         </div>
 
         <!-- BOTTOM -->
         <div class="footer-bottom">
-            <p>© 2026 Elite Events. All Rights Reserved.</p>
+            <p>© 2026 Elite Events. Crafted with ❤️ for unforgettable celebrations.</p>
         </div>
 
     </footer>
-
-
-
-
+<script src="script.js"></script>
 
 </body>
 
