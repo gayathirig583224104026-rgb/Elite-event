@@ -26,10 +26,10 @@ A premium luxury event management website built using HTML, CSS, and JavaScript.
 ## Screenshots
 
 ### Desktop
-(Add desktop screenshot here)
+
 
 ### Mobile
-(Add mobile screenshot here)
+
 
 ## Author
 
